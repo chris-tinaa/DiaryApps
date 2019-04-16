@@ -12,15 +12,16 @@
         android:layout_width="match_parent"
         android:layout_height="120dp"
         android:background="@android:color/white">
+
         <ImageView
             android:id="@+id/ivItemListNotes"
             android:layout_width="92dp"
             android:layout_height="92dp"
-            tools:src="@drawable/img_cover"
-            android:scaleType="centerCrop"
-            android:layout_marginRight="8dp"
             android:layout_alignParentEnd="true"
-            android:layout_centerVertical="true"/>
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/img_cover" />
         <TextView
             android:id="@+id/tvItemListNotesDate"
             android:layout_width="wrap_content"
